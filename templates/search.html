@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>search</title>
+</head>
+<body>
+<form action="searchdata" method="post">
+    <h6>Name to search:</h6><input type="text" name="sr">
+    {% csrf_token %}
+    <input type="submit" value="search">
+</form>
+
+</body>
+</html>
